@@ -1,5 +1,5 @@
 // constante para referência ao endpoint de fotos de gatinhos
-const API_URL = "https://thatcopy.pw/catapi/rest";
+const API_URL = "https://thatcopy.pw/catapi/rest/";
 const catImg = document.getElementById("cat-photo");
 const catBtn = document.getElementById("btn-change-cat");
 
@@ -34,5 +34,5 @@ document.addEventListener("DOMContentLoaded", function(){
     carregaImagemGatinho();
     
     // e toda vez que o botão for clicado, puxo uma imagem
-    catBtn.addEventListener("click", carregaImagemGatinho());
+    catBtn.addEventListener("click", carregaImagemGatinho);
 });
